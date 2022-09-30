@@ -15,7 +15,7 @@ public class Main {
         int target = scanner.nextInt();
         int[] result = solution.twoSum(nums,target);
         for (int element:result){
-            System.out.println(element);
+            System.out.print(element + " ");
         }
     }
 }
